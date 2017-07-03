@@ -1,5 +1,5 @@
 <projectDescription>
-  <name>Sample Spark Project</name>
+  <name>Scala Examples</name>
   <buildSpec>
     <buildCommand>
       <name>org.scala-ide.sdt.core.scalabuilder</name>

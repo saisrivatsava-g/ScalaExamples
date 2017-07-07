@@ -1,4 +1,4 @@
-package com.saisrivatsava.regex.examples
+package com.saisrivatsava.scala.regex.examples
 
 object moreWithDtaes {
   def main(args: Array[String]): Unit = {
@@ -29,5 +29,7 @@ object moreWithDtaes {
     //replacing years with another string
     val redacted    = date.replaceAllIn(datesInAString, "XXXX-XX-XX")
     println(redacted)
+    
+    
   }
 }

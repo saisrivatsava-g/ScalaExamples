@@ -1,4 +1,4 @@
-package com.saisrivatsava.regex.examples
+package com.saisrivatsava.scala.regex.examples
 
 import scala.util.matching.Regex
 

@@ -6,7 +6,7 @@ object extractingWordsWithSpecificLength {
   def main(args: Array[String]): Unit = {
 
     val words = Source.fromFile("resources/words-small-set.txt").getLines.toList
-    val patternForWordsOfSize3 = new Regex("^\\w{3}\\b")
+    val patternForWordsOfSize3 = new Regex("^[A-z]{3}$") // ^$ is a anchor  
     val wordsOfSize3 = collection.mutable.ListBuffer("words of size 3")
     words.foreach { word => if (patternForWordsOfSize3.findAllIn(word).size > 0) wordsOfSize3 += word else None }
     wordsOfSize3.foreach(println)
